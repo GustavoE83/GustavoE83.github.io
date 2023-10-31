@@ -1,0 +1,15 @@
+---
+title: "About Me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# Gustavo Garcia-Franceschini
+
+<img src="images/my_picture.jpg" style="width:50%">
+
+I am a huge enthusiast of using statistics to explain events, especially in public health and sports. I also love helping fellow members of the community grow. In the past, I have worked as a Business Analyst intern, a contributor at Samford University's Sports Analytics blog, and a Research Assistant for Carnegie Mellon University's Institute for Politics and Strategy and Columbia Mailman School of Public Health. I am currently a Ph.D. student in Columbia Mailman School of Public Health's Department of Biostatistics.
+

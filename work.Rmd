@@ -1,0 +1,109 @@
+---
+title: "My work"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# Gustavo Garcia-Franceschini
+
+## Education
+
+* Columbia University, PhD in Biostatistics
+
+
+* Carnegie Mellon University, Bachelor of Science in Statistics and Machine Learning (2019)
+
+## Research Experience
+
+* Carnegie Mellon University, Sports Analytics Capstone
+
+    * Research supervisor: Dr. Ron Yurko
+    * Research partners: Lawrence Jang, Bin Zheng, Malcolm Ehlers
+
+    *	Collaborated with research partners on investigating the relationship between practice and game performance of the CMU women’s softball team using GitHub.
+    *	Wrote agendas for our weekly meetings with supervisor, where we presented our most recent work.
+    *	Fit a random forest model that used softball statistics and game situation data to calculate well-calibrated probabilities of outs, singles, walks, and bunts happening on the next at-bat. 
+
+* Columbia Mailman School of Public Health, Biostatistics Epidemiology Summer Training Diversity Program				  
+
+    * Research supervisors: Dr. Jennifer Laird & Dr. Diana Hernandez
+    * Research partner: Sebastian Pintea
+
+    * Employed post-stratification techniques on demographic data from the American Community Survey to create weights for our survey data.
+    
+    *	Used our weighted data to calculate the prevalence of energy insecurity indicators and health outcomes.
+    
+    * Took additional coursework in biostatistics and programming with the R language and tidyverse.
+    
+* Carnegie Mellon University Institute for Politics and Strategy, Research Assistant						
+
+    * Research supervisor: Dr. John Chin
+
+    *	Applied 10-fold cross validation to fit logistic regression models for predicting various types of coups using socioeconomic and geographic data. Achieved an AUC-ROC of above 0.75 on my test data.
+    
+    *	Created visualizations of coup probabilities produced by the model on a world map.
+    
+    * Communicated my progress and results to other research group members.
+    
+
+##  Presentations
+
+
+* Meeting of the Minds Undergraduate Research Symposium: Predicting Division III Softball Outcomes				
+    * [Poster Presentation](https://www.stat.cmu.edu/capstoneresearch/493files/poster2.pdf)
+    * Research supervisor: Dr. Ron Yurko
+    * Research partners: Lawrence Jang, Bin Zheng, Malcolm Ehlers
+    
+* BEST Research Poster Symposium: Understanding the Relationship Between Energy Insecurity and Health: A First Look at the  Energy, Equity, Housing & Health (E2H2) Survey						       	 
+    * [Poster Presentation](https://www.linkedin.com/in/gustavo-garcia-franceschini/overlay/1635505619944/single-media-viewer/?profileId=ACoAADAkStcB7Q6Tv-yOsJmSz0Tv9xcCHwLtiNk)
+    * Research supervisors: Dr. Jennifer Laird & Dr. Diana Hernandez
+    * Research partner: Sebastian Pintea
+    
+* Carnegie Mellon Sports Analytics Conference: Overview of Average Fantasy Draft Position and its correlation with other statistics
+    * [Poster Presentation](https://www.linkedin.com/in/gustavo-garcia-franceschini/overlay/1635509471395/single-media-viewer/?profileId=ACoAADAkStcB7Q6Tv-yOsJmSz0Tv9xcCHwLtiNk)
+    
+* The Problem with the Empty Stands at the NBA Bubble
+    * [Poster Presentation](https://www.samford.edu/sports-analytics/fans/2020/Center-Summer-Intern-Presents-Research-at-Prestigious-Carnegie-Mellon-Sports-Analytics-Conference)
+    * Research supervisor: Dr. Darin White
+
+## Experience
+
+* Carnegie Mellon University, Statistics Teaching Assistant
+
+    * Held weekly office hours to support course of more than 70 students by guiding students through homework questions, which included survey methodology, probability theory and use of R.
+    
+    * Supervised groups in their projects with check-ins where I reviewed their most recent work and provided feedback.
+    * Presented a guest lecture on survey weights using a programming demo.
+    
+* Pittsburgh Hispanic Development Corporation, Business Analyst Intern	
+
+    * Supported six Pittsburgh entrepreneurs in tasks associated with starting a business, including business assessments, legal documentation, and website development.
+    
+    * Prepared and documented multiple tutorials and trainings for clients and colleagues using Google Apps.
+    
+    * Developed an interactive dashboard with data from the COVID-19 Financial Aid applications.
+    
+* Samford University Center for Sports Analytics, Player and Team Analytics Intern
+
+    * Designed ANOVA tests for whether the number of points NBA teams scored was different 
+with different attendance levels. The results were published on the Center for Sports Analytics website.
+
+    * Published articles on the Center for Sports Analytics website debating NBA award winners.
+    
+    * Featured work:
+    
+        * [The Problem with the Neutral Courts at the NBA Bubble in Orlando](https://www.samford.edu/sports-analytics/fans/2020/The-Problem-with-the-Neutral-Courts-at-the-NBA-Bubble-in-Orlando)
+             
+        * [The Problem with No Fans at the NBA Bubble in Orlando](https://www.samford.edu/sports-analytics/fans/2020/The-Problem-with-No-Fans-at-the-NBA-Bubble-in-Orlando)
+        
+        * [A Look at the 2020 NBA MVP Candidates](https://www.samford.edu/sports-analytics/fans/2020/A-Look-at-the-2020-NBA-MVP-Candidates)
+        * [A Look at the 2020 NBA Defensive Player of the Year Race](https://www.samford.edu/sports-analytics/fans/2020/A-Look-at-the-2020-NBA-Defensive-Player-of-the-Year-Race)
+        
+* Carnegie Mellon University, Tartan Scholars Ambassador
+
+    * Led group of three Ambassadors by helping them with their projects, organizing meetings and serving as mediator between them and the program administration.
+    * Held biweekly meetings with program administration to discuss confidential information regarding students, staff, candidate interviews and program organization.
+    * [Featured in article highlighting the Tartan Scholars Class of 2023.](https://www.cmu.edu/news/stories/archives/2023/may/tartan-scholars-program-graduates-its-first-cohort)
