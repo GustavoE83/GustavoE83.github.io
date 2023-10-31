@@ -1,0 +1,18 @@
+name: "Gustavo Garcia-Franceschini"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About"
+      href: about.html
+    - text: "My Work"
+      href: work.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<geg2145@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: https://github.com/GustavoE83
+    - icon: fa-brands fa-linkedin
+      href: https://www.linkedin.com/in/gustavo-garcia-franceschini/
+output:
+  html_document:
+    theme: cosmo
