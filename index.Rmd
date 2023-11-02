@@ -13,3 +13,5 @@ output:
 * [About me](about.html)
 
 * [My work](work.html)
+
+* [My dashboard](dashboard.html)

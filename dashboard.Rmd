@@ -1,0 +1,78 @@
+---
+title: "My Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+
+library(plotly)
+library(flexdashboard)
+```
+
+```{r data}
+data("rest_inspec")
+df_latin = rest_inspec %>%
+  filter(str_detect(cuisine_description, "Latin") &
+         str_detect(inspection_type, "Initial Inspection") &
+         str_detect(inspection_date, "2017") &
+         !is.na(score)) %>%
+  group_by(boro, dba, inspection_date) %>%
+  summarize(mean_score = mean(score)) %>%
+  mutate(borough = factor(boro), 
+         grade = case_when(
+           mean_score < 14 ~ "A",
+           mean_score < 27 ~ "B",
+           T ~ "C"
+         )) 
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Latin Restaurants Scores by Date
+
+```{r plot_1}
+df_latin %>%
+  mutate(text_label = str_c("Name: ", dba, "\nGrade: ", grade)) %>%
+  plot_ly(
+    x = ~inspection_date, y = ~mean_score, type = "scatter", 
+    mode = "markers",
+    color = ~borough, text = ~text_label, alpha = 0.75) %>%
+  layout(legend=list(title=list(text='Borough')),
+         xaxis = list(title = 'Date'),
+         yaxis = list(title = 'Score'))
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### 'Latin Restaurants Scores by Borough
+
+```{r plot_2}
+df_latin %>% 
+  mutate(borough = fct_reorder(borough, mean_score)) %>% 
+  plot_ly(y = ~ mean_score, color = ~ borough, 
+          type = "box", colors = "viridis")  %>%
+  layout(legend=list(title=list(text= 'Borough')),
+         xaxis = list(title = 'Date'),
+         yaxis = list(title = 'Score'))
+```
+
+### Latin Restaurants per Boroughs
+
+```{r plot_3}
+df_latin %>%
+  group_by(borough) %>%
+  summarize(n = n()) %>%
+  plot_ly(x = ~ fct_reorder(borough, n), y = ~ n, 
+          color = ~ fct_reorder(borough, n), type = "bar", 
+          colors = "viridis") %>%
+  layout(legend=list(title=list(text = 'Borough')),
+         xaxis = list(title = 'Borough'),
+         yaxis = list(title = 'Count'))
+```
